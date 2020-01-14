@@ -6,10 +6,11 @@
   "author": "Vikas <sakivksg@gmail.com>",
   "bin": {
     "klogs": "bin/klogs",
-    "cu": "bin/cu"
+    "ct": "bin/ct"
   },
   "license": "MIT",
   "dependencies": {
+    "clipboardy": "^2.1.0",
     "minimist": "^1.2.0",
     "ora": "^4.0.3"
   }
