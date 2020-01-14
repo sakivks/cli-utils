@@ -5,10 +5,12 @@
   "repository": "https://github.com/sakivks/cli-utils.git",
   "author": "Vikas <sakivksg@gmail.com>",
   "bin": {
-    "klogs": "bin/klogs"
+    "klogs": "bin/klogs",
+    "cu": "bin/cu"
   },
   "license": "MIT",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "ora": "^4.0.3"
   }
 }

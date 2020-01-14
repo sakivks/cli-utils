@@ -1,6 +1,6 @@
 const menus = {
   main: `
-    cu [container name] <options>
+    cu [container_name] <options>
 
     klogs .............. shows kubectl logs for a namespace
     version ............ show package version
