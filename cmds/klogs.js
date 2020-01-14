@@ -10,7 +10,7 @@ async function main(args) {
     console.log(getPodscommand);
     const { stdout: getPods } = await execP(getPodscommand);
     const pod = getPod(getPods);
-    const getLogsCommand = `kubectl logs -f -n kratos ${pod} kratos`;
+    const getLogsCommand = `kubectl logs -f -n ${args.n} ${pod} ${args.n}`;
     console.log(getLogsCommand);
     clipboardy.writeSync(getLogsCommand);
     // const kubectlLogs = execFile(
