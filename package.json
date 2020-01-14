@@ -1,0 +1,14 @@
+{
+  "name": "cli-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sakivks/cli-utils.git",
+  "author": "Vikas <sakivksg@gmail.com>",
+  "bin": {
+    "klogs": "bin/klogs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
